@@ -136,7 +136,9 @@ int main()
 		printf("\t2 - consutar nomes\n");
 		printf("\t3 - deletar nomes\n\n"); 
 		printf("Opção: "); //Fim do menu
-	
+		printf("\t4 - Sair do sistema\n\n");
+		
+		
 		scanf("%d", &opcao); //armazenando a escolha do usuário
 	
 		system("cls"); //responsável por limpar a tela
@@ -156,6 +158,10 @@ int main()
 			deletar();
 			break;
 			
+			case 4:
+			printf("Obrigado por utilizar o sistema\n");
+			return 0;
+			break;
 
 			
 			default:
